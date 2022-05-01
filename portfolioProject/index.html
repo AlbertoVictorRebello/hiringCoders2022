@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>.:CIA de Dança Aérea:.</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./.img/Logo-Cia.jpg" alt="Logo-Cia.jpg" width="55px" height="55px">
+        </div>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/c/CiadeDan%C3%A7aA%C3%A9rea" target="_blank">youtube</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ciadedancaaerea/" target="_blank">instagram</a>
+            </li>
+            <li>
+                <a href="mailto:ciadedancaaerea@gmail.com" target="_blank">e-mail</a>
+            </li>
+            <li>
+                <a href="https://wa.me/21985277800" target="_blank">whatsapp</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>CIA de Dança Aérea</h1>
+                <h5>Prof. Carolina Furtado</h5>                
+            </div>
+
+            <div id="arrow">
+                <i onclick="displayAbout()" id="animation" class="fa-solid fa-sort-down"></i>
+            </div>
+            
+            <div style="display: none;" id="about">
+                <p>A CIA de Dança Aérea atua na cena artística carioca desde 2005.
+                    Usar a nossa a experiência em aéreos como ponto de partida, em interação com a dança, o circo e demais
+                    linguagens. <br>
+                    Trabalhamos com pesquisa teórica e de movimento e com criação coletiva.
+                    Essa tem sido a motivação desde que a primeira formação aconteceu quando a professora Carolina Furtado foi convidada
+                    a criar um trabalho para abertura da Mostra Municipal de Dança de 2005 que tinha como tema:
+                    “A dança e suas relações/comunicações com as outras linguagens artísticas”. Esse convite nos motivou a criar o 
+                    espetáculo Corpos Múltiplos.
+                </p>
+            </div>
+
+
+            <div class="form">       
+                <p>Deixe seu contato!</p>         
+                <form action="">
+                    <input type="text" placeholder="seu melhor e-mail :)">
+                    <button>Enviar!</button>
+                </form>
+            </div>            
+
+        </section>
+    </main>
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
