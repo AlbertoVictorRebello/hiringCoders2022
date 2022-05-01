@@ -27,4 +27,4 @@ Note: the folder names and the code are writen in portuguese to be in accordance
 | -------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | portfolioProject | Hey! Let's put the HTML and CSS concepts that we have been learning all together? This project will help us to practice these skills producing a useful project. Enjoy the trip! |
 ## Usage Instructions
-- To be informed.
+- portfolioProject: just download the files into your local folder and open index.html from your browser. If you want to change the code, use your prefered text editor or programing IDE.
