@@ -34,11 +34,14 @@ Note: the folder names and the code are writen in portuguese to be in accordance
 | portfolioProject | Hey! Let's put the HTML and CSS concepts that we have been learning all together? This project will help us to practice these skills producing a useful project. Enjoy the trip! |
 | dataStructures | First week, warming up activities: this course will briefly talk about key concepts related to data structures. Enjoy it!|
 | qualityAssuranceProject | Quality is the core atribute of anything that persists useful over the time. During this course we will be exposed to a very important knowledge about TDD, BDD and some tools adopted to keep the softwares on the track, specialy when we work with CI/CD aprouch.|
-|| Jasmine: there are 3 unit tests implemented to demonstrate TDD coding aproach. The Client class is tested to perform the methods returnAll(), first() and upperCase().|
+|qualityAssuranceProject/tdd_bdd_jasmine_cucumber | Jasmine: there are 3 unit tests implemented to demonstrate TDD coding aproach. The Client class is tested to perform the methods returnAll(), first() and upperCase().|
+|qualityAssuranceProject/tdd_bdd_jasmine_cucumber| Selenium & Cucumber: there is a case of use implemented checking if the browser presented all 10 client's information recovered by returnAll() method. It is a useful BDD example!|
+|qualityAssuranceProject/tdd_bdd_jest_cypress||
+
 ## Usage Instructions
 - portfolioProject, dataStructures: just download the files into your local folder and open index.html from your browser. If you want to change the code, use your prefered text editor or programing IDE.
 
-- qualityAssuranceProject: assuming that your system has installed node.js, execute:
+- tdd_bdd_jasmine_cucumber: assuming that your system has installed node.js, execute:
 To install Express-generator, a package that is an utility that provides a command-line tool you can use to scaffold your node.js project.
   ```npm install express-generator -g```
 
@@ -49,12 +52,42 @@ To install Express-generator, a package that is an utility that provides a comma
   ``npm install``
   
   Install Jasmine:
-  ``npm install--save-dev -g jasmine``
+  ``npm install --save-dev -g jasmine``
 
   ``jasmine init``
   
   Install Cucumber:
   ``npm install --save-dev cucumber``
+ 
+  Install Selenium:
+  ``npm install --save-dev selenium-webdriver``
+
+  ``npm install``
+
+  Download your browaer's webdriver
+  ``https://www.npmjs.com/package/selenium-webdriver``
+
+  Create a new folder ``./driver`` and put the driver into it.
+
+  Clone the project folder and copy into your folder project.
+
+- tdd_bdd_jest_cypress: assuming that your system has installed node.js, execute:
+To install Express-generator, a package that is an utility that provides a command-line tool you can use to scaffold your node.js project.
+  ```npm install express-generator -g```
+
+  Execute cd command on your terminal to move into your folder:
+  ``express tdd_bdd_jest_cypress --view=ejs``
+
+  Execute cd command on your terminal to move into your project folder and install the dependencies:
+  ``npm install``
+  
+  Install Jest:
+  ``npm install --save-dev jest``
+
+  ``jasmine init``
+  
+  Install Cypress:
+  ``npm install cypress``
  
   Install Selenium:
   ``npm install --save-dev selenium-webdriver``
