@@ -39,6 +39,7 @@ header {
 }
 
 header ul {
+margin-top: 60px;
     display: flex;
     
 }
