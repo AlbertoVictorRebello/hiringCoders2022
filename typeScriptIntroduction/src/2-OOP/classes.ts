@@ -1,4 +1,23 @@
 // Class notation
+
+class ConstructorDefault {
+    public attribute01: string = "";
+}
+
+let constructorDefault: ConstructorDefault = new ConstructorDefault();
+constructorDefault.attribute01 = "Value";
+
+class ConstructorExplicity {
+    public attribute01: string = "";
+
+    public constructor() {
+        this.attribute01 = "";
+    }
+}
+
+let constructorExplicity: ConstructorExplicity = new ConstructorExplicity();
+constructorExplicity.attribute01 = "Value";
+
 class UserClass {
     protected name: string;
     protected age: number;

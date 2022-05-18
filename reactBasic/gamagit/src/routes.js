@@ -1,8 +1,7 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Repositories from './Repositories/Repositories'
-import Home from "./Home";
-
+import Home from './pages/Home/index';
 export default function RoutesMap() {
     return (
     <BrowserRouter>
