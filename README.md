@@ -36,7 +36,9 @@ Note: the folder names and the code are writen in portuguese to be in accordance
 | qualityAssuranceProject | Quality is the core atribute of anything that persists useful over the time. During this course we will be exposed to a very important knowledge about TDD, BDD and some tools adopted to keep the softwares on the track, specialy when we work with CI/CD aprouch.|
 |qualityAssuranceProject/tdd_bdd_jasmine_cucumber | Jasmine: there are 3 unit tests implemented to demonstrate TDD coding aproach. The Client class is tested to perform the methods returnAll(), first() and upperCase().|
 |qualityAssuranceProject/tdd_bdd_jasmine_cucumber| Selenium & Cucumber: there is a case of use implemented checking if the browser presented all 10 client's information recovered by returnAll() method. It is a useful BDD example!|
-|qualityAssuranceProject/tdd_bdd_jest_cypress||
+|qualityAssuranceProject/tdd_bdd_jest_cypress|
+|javaScriptBasicActvity|This project ask you to put in practice the knowledge to exchange information bwtween the html and js files. Afterward you will need to create functions to process the information and define html eleents style by code returning the result in a visual way to the user. You can donload the bae project to try yourself at [JCBombardelli's github](https://github.com/jcbombardelli/gama-no-javascript-basico)|
+|typeScriptIntroduction|Here we can find the examples used along this course and new ones included to test concepts learned from the documentation.|
 
 ## Usage Instructions
 - portfolioProject, dataStructures: just download the files into your local folder and open index.html from your browser. If you want to change the code, use your prefered text editor or programing IDE.
@@ -94,7 +96,7 @@ To install Express-generator, a package that is an utility that provides a comma
 
   ``npm install``
 
-  Download your browaer's webdriver
+  Download your browser's webdriver
   ``https://www.npmjs.com/package/selenium-webdriver``
 
   Create a new folder ``./driver`` and put the driver into it.
