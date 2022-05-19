@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import styles from './Repositories.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 
+import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
+
 export default function Repositories() {
   const navigate = useNavigate();
   const [repositories, setRepositories] = useState([]); 
+  let colored = false;
   useEffect(() => {
     let repositoriesName = localStorage.getItem('repositoriesName');
     if (repositoriesName !== null) {     
@@ -19,15 +23,22 @@ export default function Repositories() {
 
   return (
     <div class='container'>
-      <h2>List of Repositories {typeof repositoriesName}</h2>
-      <ul>       
+      <h2>List of Repositories</h2>
+      <ListGroup>       
         {repositories.map(repository => {
-          return (
-            <li>{ repository }</li>
-            )
+          colored = !colored;
+          if (colored) {
+            return (
+              <ListGroupItem className='list-group-item-primary'>{ repository }</ListGroupItem>
+              )
+          } else {            
+              return (
+                <ListGroupItem>{ repository }</ListGroupItem>
+                )
+          }          
           })
         }
-      </ul>
+      </ListGroup>
       < Link to="/">Home</Link>
     </div>
   )

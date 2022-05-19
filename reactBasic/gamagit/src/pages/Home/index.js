@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Repositories from '../../Repositories/Repositories';
 import { useNavigate } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 function Home(props) {
   const navigate = useNavigate();
@@ -22,11 +23,9 @@ function Home(props) {
   });
   }
   return (
-    <>
-      {/* <h1>{ props.title + " " + user}</h1>   */}
+    <>      
     <input className='userInput' placeholder='user' value={ user } onChange={e => setUser(e.target.value)}/>
-    <button type='button' onClick={ handleSearch }>Search</button>
-    {/* <Repositories/> */}
+    <Button onClick={ handleSearch }>Search</Button>    
     </> 
   );
 }
