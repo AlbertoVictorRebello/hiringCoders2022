@@ -17,9 +17,10 @@ export default function Signin() {
                 password
             })
 
-        }).then((response) => response.json())
-        .then(() => {
-            console.log('Success');
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            console.log('Success', data);
         });
     }
     const handleEmailChange = (event) => setEmail(event.target.value);
@@ -33,18 +34,18 @@ export default function Signin() {
                  type="email" 
                  value= {email}    
                  onChange={handleEmailChange}              
-                 inputmode="email" 
-                 autocomplete="username"
+                 inputMode="email" 
+                 autoComplete="username"
                  />            
         </fieldset>
         <fieldset>
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
                 <input 
                 id="password"                 
                 type="password" 
                 value={password}
-                onChange={handlePasswordChange}
-                autocomplete="current-password"
+                autoComplete="current-password"
+                onChange={handlePasswordChange}                
                 />            
         </fieldset>
         <button type="submit">Sign in</button>
