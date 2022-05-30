@@ -15,10 +15,14 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
-    "apollo-server-core": "^3.8.1",
-    "apollo-server-express": "^3.8.1",
+    "apollo-server-express": "^2.13.1",
     "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "graphql": "^16.5.0"
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/data/*"
+    ]
   }
 }

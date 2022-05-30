@@ -1,0 +1,19 @@
+{
+  "name": "questions-and-answers",
+  "version": "1.0.0",
+  "description": "Node JS example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "questions",
+    "anwers"
+  ],
+  "author": "Alberto Rebello",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^7.1.1"
+  }
+}

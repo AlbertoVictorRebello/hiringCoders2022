@@ -1,0 +1,20 @@
+{  
+  "name": "node-crud-example",
+  "version": "1.0.0",
+  "description": "A CRUD application using JS and NodeJS",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crude",
+    "nodejs",
+    "js"
+  ],
+  "author": "Alberto Rebello",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^7.1.1"
+  }
+}
