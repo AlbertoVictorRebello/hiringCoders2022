@@ -1,6 +1,6 @@
-const app = require('./app');
+import app from './app';
 
 const PORT = 3333;
 
 
-app.listen(PORT), '127.0.0.1';
+app.listen(PORT);
