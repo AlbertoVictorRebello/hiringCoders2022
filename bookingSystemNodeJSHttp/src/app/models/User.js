@@ -1,4 +1,4 @@
-import { user } from 'pg/lib/defaults';
+import { password, user } from 'pg/lib/defaults';
 import Sequelize, { Model } from 'sequelize';
 import bcrypt from 'bcryptjs';
 
@@ -23,9 +23,13 @@ class User extends Model {
             if (user.password) {
                 user.password_hash = await bcrypt.hash(user.password, 10)
             }
-        })
+        })        
 
         return this;
+    }
+
+    checkPassword(password) {
+        return bcrypt.compare(password, this.password_hash);
     }
     
 }
