@@ -13,6 +13,9 @@ class CollaboratorController {
             }]
         })
 
+
+        return res.json(collaborator);
+
     }
 
 }

@@ -1,10 +1,12 @@
-import { Router} from 'express'; 
+import { Router } from 'express'; 
 import multer from 'multer';
 import multerConfig from './config/multer'
+
 import UserController from './app/controllers/UserController';
 import SessionController from './app/controllers/SessionController';
 import FileController from './app/controllers/FileController';
 import CollaboratorController from './app/controllers/CollaboratorController';
+import AppointmentController from './app/controllers/AppointmentController';
 
 import authMiddleware from './app/middlewares/auth';
 
@@ -23,6 +25,9 @@ routes.get('/', async (req, res) => {
 routes.use(authMiddleware)
 
 routes.put('/users', UserController.update)
+
+//Appointment route
+routes.post('/appointment', AppointmentController.store)
 
 // List of collaborators
 routes.get('/collaborator', CollaboratorController.index)
