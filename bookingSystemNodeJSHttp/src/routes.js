@@ -9,6 +9,7 @@ import CollaboratorController from './app/controllers/CollaboratorController';
 import AppointmentController from './app/controllers/AppointmentController';
 
 import authMiddleware from './app/middlewares/auth';
+import ScheduleController from './app/controllers/ScheduleController';
 
 const routes = new Router();
 const upload = multer(multerConfig);
@@ -27,10 +28,16 @@ routes.use(authMiddleware)
 routes.put('/users', UserController.update)
 
 //Appointment route
-routes.post('/appointment', AppointmentController.store)
+routes.post('/appointments', AppointmentController.store)
+
+//Appointment list
+routes.get('/appointments', AppointmentController.index)
 
 // List of collaborators
 routes.get('/collaborator', CollaboratorController.index)
+
+// Scheduled appointments by collaborator
+routes.get('/schedule', ScheduleController.index)
 
 //File uploads
 routes.post('/files', upload.single('file'), FileController.store)
