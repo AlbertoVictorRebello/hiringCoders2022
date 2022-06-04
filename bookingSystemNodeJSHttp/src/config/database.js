@@ -1,4 +1,6 @@
-module.exports = {
+// module.exports =  {
+
+export default {
     dialect: 'postgres',
     host: 'localhost',
     username: 'postgres',
@@ -9,4 +11,4 @@ module.exports = {
         underscored: true,
         underscoredAll: true
     }
-}
+};
