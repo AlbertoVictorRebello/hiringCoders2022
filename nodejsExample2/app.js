@@ -6,7 +6,7 @@ const fs = require('fs');
 
 //Defining server's address/URI
 const hostName = '127.0.0.1'; //localhost
-const port = 3000;
+const port = 3001;
 
 // Defining the business rules 
 const server = http.createServer((req, res) => {
@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
             console.log('Yehhh!');
             answer = 'User created/updated with success!'
             res.statusCode = 200;
-            res.setHeader('Content-Type', 'text/plain');
+            res.setHeader('Content-Type', 'application/json');
             res.end(answer);
         }); 
         
@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
             fs.readFile(`users/${ params.id }.txt`, function(err, data) {
                 answer = err ? 'User not found' : data       
                 res.statusCode = 200;
-                res.setHeader('Content-Type', 'application/json');
+                res.setHeader('Content-Type', 'text/plain');
                 res.end(answer);
             })
 
@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
             fs.unlink(`users/${ params.id }.txt`, function(err, data) {
                 answer = err ? 'User not found' : 'User deleted with success!'          
                 res.statusCode = 200;
-                res.setHeader('Content-Type', 'text/plain');
+                res.setHeader('Content-Type', 'application/json');
                 res.end(answer);
             })
 

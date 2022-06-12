@@ -1,0 +1,125 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 2,
+    "total": 6
+  },
+  "1 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "optional": false,
+    "script": "nodemon -r esm .",
+    "stage": "dev",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "2 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "optional": false,
+    "script": "nodemon -r esm .",
+    "stage": "dev",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "3 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "\u001b[33m[nodemon] 2.0.4\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "4 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[33m[nodemon] 2.0.16\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "5 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[33m[nodemon] to restart at any time, enter `rs`\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "6 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[33m[nodemon] watching path(s): *.*\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "7 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[33m[nodemon] watching extensions: js,mjs,json\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "8 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "\u001b[33m[nodemon] to restart at any time, enter `rs`\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "9 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "\u001b[33m[nodemon] watching path(s): *.*\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "10 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "\u001b[33m[nodemon] watching extensions: js,mjs,json\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "11 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "\u001b[32m[nodemon] starting `node -r esm .`\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "12 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[32m[nodemon] starting `node -r esm .`\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "13 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server/node_modules/.pnpm/esm@3.2.25/node_modules/esm/esm.js:1",
+    "stage": "dev",
+    "stdio": "stderr",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "14 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[31m[nodemon] app crashed - waiting for file changes before starting...\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "15 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server",
+    "line": "Server is listening at http://127.0.0.1:8000.",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/dev-demands/packages/server"
+  },
+  "16 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[32m[nodemon] restarting child process\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  },
+  "17 debug pnpm:lifecycle": {
+    "depPath": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server",
+    "line": "\u001b[32m[nodemon] starting `node -r esm .`\u001b[39m",
+    "stage": "dev",
+    "stdio": "stdout",
+    "wd": "/mnt/dados/alber/Documents/PROJETOS DE COMPUTACAO/hiringCoders2022/clientServerExampleWithGraphQL/packages/server"
+  }
+}

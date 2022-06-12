@@ -1,5 +1,5 @@
 {
-  "type": "module",  
+  "type": "module",
   "name": "typeScriptIntroduction",
   "version": "1.0.0",
   "description": "",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.3"
   },
   "dependencies": {
     "update": "^0.7.4"
