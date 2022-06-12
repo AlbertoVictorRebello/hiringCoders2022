@@ -1,0 +1,68 @@
+[POST] http://localhost:3000/ecommerce-api/v1/buy
+
+{
+            "MerchantOrderId": "2014111701",
+            "Customer": {
+                "Name": "Comprador crédito completo",
+                "Identity": "11225468954",
+                "IdentityType": "CPF",
+                "Email": "compradorteste@teste.com",
+                "Birthdate": "1991-01-02",
+                "Address": {
+                    "Street": "Rua Teste",
+                    "Number": "123",
+                    "Complement": "AP 123",
+                    "ZipCode": "12345987",
+                    "City": "Rio de Janeiro",
+                    "State": "RJ",
+                    "Country": "BRA"
+                },
+                "DeliveryAddress": {
+                    "Street": "Rua Teste",
+                    "Number": "123",
+                    "Complement": "AP 123",
+                    "ZipCode": "12345987",
+                    "City": "Rio de Janeiro",
+                    "State": "RJ",
+                    "Country": "BRA"
+                },
+                "Billing": {
+                    "Street": "Rua Neturno",
+                    "Number": "12345",
+                    "Complement": "Sala 123",
+                    "Neighborhood": "Centro",
+                    "City": "Rio de Janeiro",
+                    "State": "RJ",
+                    "Country": "BR",
+                    "ZipCode": "20080123"
+                }
+            },
+            "Payment": {
+                "ServiceTaxAmount": 0,
+                "Installments": 1,
+                "Interest": "ByMerchant",
+                "Capture": true,
+                "Authenticate": false,
+                "Payment.Recurrent": "false",
+                "SoftDescriptor": "123456789ABCD",
+                "CreditCard": {
+                    "CardNumber": "4551870000000183",
+                    "Holder": "Teste Holder",
+                    "ExpirationDate": "12/2030",
+                    "SecurityCode": "123",
+                    "SaveCard": "false",
+                    "Brand": "Visa",
+                    "CardOnFile": {
+                        "Usage": "Used",
+                        "Reason": "Unscheduled"
+                    }
+                },
+                "IsCryptoCurrencyNegotiation": true,
+                "Type": "CreditCard",
+                "Amount": 15700,
+                "AirlineData": {
+                    "TicketNumber": "AR988983"
+                }
+            }
+        }
+

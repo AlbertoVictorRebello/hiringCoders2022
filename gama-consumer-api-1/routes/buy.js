@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
+var cielo = require('../lib/cielo')
 
 /* POST purchase creation */
 router.post('/', function(req, res, next) {
-  res.send('buying...');
+  res.send(cielo.buy(req.body));
 });
 
 
